@@ -20,11 +20,11 @@ const useStyles = makeStyles(theme => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: '#D3D3D3'
   },
   gridList: {
-    width: 700,
-    height: 630,
+    width: 1100,
+    height: 990,
 
     transform: 'translateZ(0)',
   },
@@ -77,7 +77,7 @@ export default function AdvancedGridList() {
   return (
     <div className={classes.root}>
     <Typography variant="h3">
-      Images
+      Art Gallery
       <GridList cellHeight={'300'} spacing={1} className={classes.gridList} cols={2}>
         {tileData.map(tile => (
           <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
@@ -89,7 +89,7 @@ export default function AdvancedGridList() {
               className={classes.titleBar}
               actionIcon={
                 <IconButton className={classes.icon}>
-                  <InfoIcon />
+                  <InfoIcon/>
                 </IconButton>
               }
             />

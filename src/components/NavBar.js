@@ -86,7 +86,7 @@ export default function NavTabs() {
           }}
         >
           <LinkTab label="Art" icon={<BrushIcon />}  {...a11yProps(0)} />
-          <LinkTab label="Gaming" icon={<VideogameAssetIcon />} {...a11yProps(1)} />
+          <LinkTab label="Games" icon={<VideogameAssetIcon />} {...a11yProps(1)} />
           <LinkTab label="Photography" icon={<PhotoCameraIcon />} {...a11yProps(2)} />
         </Tabs>
       </AppBar>
