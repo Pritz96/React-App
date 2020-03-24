@@ -6,6 +6,8 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import blueRing from './static/blueRing.png';
 import controllerCoaster from './static/controllerCoaster.png';
 import inceptionTotem from './static/inceptionTotem.png';
+import spinner from './static/spinner.JPG'
+import pocketWatch from './static/pocketWatch.JPG'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -48,12 +50,22 @@ export default function AdvancedGridList() {
         img: inceptionTotem,
         title: 'Inception Totem',
         featured: false,
+      },
+      {
+        img: spinner,
+        title: 'Ninjas in Pyjamas Spinner',
+        featured: false,
+      },
+      {
+        img: pocketWatch,
+        title: 'Pocket Watch',
+        featured: false,
       }
   ];
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={200} spacing={1} className={classes.gridList}>
+      <GridList cellHeight={200} spacing={1} className={classes.gridList} cols={3}>
         {tileData.map(tile => (
           <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
             <img src={tile.img} alt={tile.title} />
