@@ -3,9 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-import blueRing from './blueRing.png';
-import controllerCoaster from './controllerCoaster.png';
-import inceptionTotem from './inceptionTotem.png';
+import blueRing from './static/blueRing.png';
+import controllerCoaster from './static/controllerCoaster.png';
+import inceptionTotem from './static/inceptionTotem.png';
 
 const useStyles = makeStyles(theme => ({
   root: {

@@ -1,12 +1,10 @@
 import React from 'react';
-import AdvancedGridList from './components/Images'
-import NavBar from './components/NavBar'
+import NavTabs from './components/NavBar'
 
 function App() {
   return (
     <div>
-    <NavBar />
-    <AdvancedGridList />
+    <NavTabs />
     </div>
   );
 }
