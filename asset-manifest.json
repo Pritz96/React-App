@@ -1,25 +1,28 @@
 {
   "files": {
     "main.css": "/React-App/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/React-App/static/js/main.8a04138b.chunk.js",
-    "main.js.map": "/React-App/static/js/main.8a04138b.chunk.js.map",
+    "main.js": "/React-App/static/js/main.bb0310ce.chunk.js",
+    "main.js.map": "/React-App/static/js/main.bb0310ce.chunk.js.map",
     "runtime-main.js": "/React-App/static/js/runtime-main.b39ae8e8.js",
     "runtime-main.js.map": "/React-App/static/js/runtime-main.b39ae8e8.js.map",
-    "static/js/2.36cc523a.chunk.js": "/React-App/static/js/2.36cc523a.chunk.js",
-    "static/js/2.36cc523a.chunk.js.map": "/React-App/static/js/2.36cc523a.chunk.js.map",
+    "static/js/2.b4cd94a5.chunk.js": "/React-App/static/js/2.b4cd94a5.chunk.js",
+    "static/js/2.b4cd94a5.chunk.js.map": "/React-App/static/js/2.b4cd94a5.chunk.js.map",
     "index.html": "/React-App/index.html",
-    "precache-manifest.6cbec38d1adce2b24295866f519bbb29.js": "/React-App/precache-manifest.6cbec38d1adce2b24295866f519bbb29.js",
+    "precache-manifest.73484e092ea189a9a8ab39c73f188c94.js": "/React-App/precache-manifest.73484e092ea189a9a8ab39c73f188c94.js",
     "service-worker.js": "/React-App/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/React-App/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.36cc523a.chunk.js.LICENSE.txt": "/React-App/static/js/2.36cc523a.chunk.js.LICENSE.txt",
+    "static/js/2.b4cd94a5.chunk.js.LICENSE.txt": "/React-App/static/js/2.b4cd94a5.chunk.js.LICENSE.txt",
     "static/media/blueRing.png": "/React-App/static/media/blueRing.9d2029a3.png",
     "static/media/controllerCoaster.png": "/React-App/static/media/controllerCoaster.8fde5954.png",
-    "static/media/inceptionTotem.png": "/React-App/static/media/inceptionTotem.73fc2b94.png"
+    "static/media/inceptionTotem.png": "/React-App/static/media/inceptionTotem.73fc2b94.png",
+    "static/media/pocketWatch.jpg": "/React-App/static/media/pocketWatch.ee53c972.jpg",
+    "static/media/spinner.jpg": "/React-App/static/media/spinner.4136e747.jpg",
+    "static/media/tanjiro.jpg": "/React-App/static/media/tanjiro.ded090a9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b39ae8e8.js",
-    "static/js/2.36cc523a.chunk.js",
+    "static/js/2.b4cd94a5.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.8a04138b.chunk.js"
+    "static/js/main.bb0310ce.chunk.js"
   ]
 }

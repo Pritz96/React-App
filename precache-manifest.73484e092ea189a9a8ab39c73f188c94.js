@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfacd3f2751523cee3adec95fc1a5af9",
+    "revision": "4697daf3e188f508da79d3f6f6858d4c",
     "url": "/React-App/index.html"
   },
   {
-    "revision": "34db408b7122ba5c0f11",
+    "revision": "cdebd584cf613af953fb",
     "url": "/React-App/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "b09740bfc0c66ec64240",
-    "url": "/React-App/static/js/2.36cc523a.chunk.js"
+    "revision": "2e43d3c4193adf157c8d",
+    "url": "/React-App/static/js/2.b4cd94a5.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/React-App/static/js/2.36cc523a.chunk.js.LICENSE.txt"
+    "url": "/React-App/static/js/2.b4cd94a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34db408b7122ba5c0f11",
-    "url": "/React-App/static/js/main.8a04138b.chunk.js"
+    "revision": "cdebd584cf613af953fb",
+    "url": "/React-App/static/js/main.bb0310ce.chunk.js"
   },
   {
     "revision": "3857cece8260ff5cf3f2",
@@ -34,5 +34,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "73fc2b9433f3d89b6a505dee3c8a4b6e",
     "url": "/React-App/static/media/inceptionTotem.73fc2b94.png"
+  },
+  {
+    "revision": "ee53c972e6bba0e35a60d9ece5f7e831",
+    "url": "/React-App/static/media/pocketWatch.ee53c972.jpg"
+  },
+  {
+    "revision": "4136e747e55a2b46009cb12a5ad48bcc",
+    "url": "/React-App/static/media/spinner.4136e747.jpg"
+  },
+  {
+    "revision": "ded090a9aaf8ba082f08e36ee4730476",
+    "url": "/React-App/static/media/tanjiro.ded090a9.jpg"
   }
 ]);
