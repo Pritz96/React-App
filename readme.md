@@ -1,0 +1,1 @@
+This React app is deployed at https://pritz96.github.io/React-App/ using Github Pages
