@@ -3,11 +3,16 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import InfoIcon from '@material-ui/icons/Info';
 import blueRing from './static/blueRing.png';
 import controllerCoaster from './static/controllerCoaster.png';
 import inceptionTotem from './static/inceptionTotem.png';
-import spinner from './static/spinner.JPG'
-import pocketWatch from './static/pocketWatch.JPG'
+import spinner from './static/spinner.jpg'
+import pocketWatch from './static/pocketWatch.jpg'
+import tanjiro from './static/tanjiro.jpg'
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -18,8 +23,8 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   gridList: {
-    width: 500,
-    height: 450,
+    width: 700,
+    height: 630,
 
     transform: 'translateZ(0)',
   },
@@ -33,7 +38,9 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+
 export default function AdvancedGridList() {
+
   const classes = useStyles();
   const tileData = [
     {
@@ -60,12 +67,18 @@ export default function AdvancedGridList() {
         img: pocketWatch,
         title: 'Pocket Watch',
         featured: false,
+      },
+      {
+        img: tanjiro,
+        title: 'Tanjiro Drawing',
+        featured: false,
       }
   ];
-
   return (
     <div className={classes.root}>
-      <GridList cellHeight={200} spacing={1} className={classes.gridList} cols={3}>
+    <Typography variant="h3">
+      Images
+      <GridList cellHeight={'300'} spacing={1} className={classes.gridList} cols={2}>
         {tileData.map(tile => (
           <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
             <img src={tile.img} alt={tile.title} />
@@ -74,10 +87,16 @@ export default function AdvancedGridList() {
               titlePosition="top"
               actionPosition="left"
               className={classes.titleBar}
+              actionIcon={
+                <IconButton className={classes.icon}>
+                  <InfoIcon />
+                </IconButton>
+              }
             />
           </GridListTile>
         ))}
       </GridList>
+      </Typography>
     </div>
   );
 }
