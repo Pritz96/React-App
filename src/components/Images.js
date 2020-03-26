@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
   },
   gridList: {
     width: 1110,
-    height: 990,
+    height: 1300,
 
     transform: 'translateZ(0)',
   },
@@ -79,7 +79,7 @@ export default function AdvancedGridList() {
     <div className={classes.root}>
     <Typography variant="h4">
       Gallery
-      <GridList cellHeight={'500'} spacing={1} className={classes.gridList} cols={2}>
+      <GridList cellHeight={'400'} spacing={3} className={classes.gridList} cols={2}>
         {tileData.map(tile => (
           <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
             <img src={tile.img} alt={tile.title} />
