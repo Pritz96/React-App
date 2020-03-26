@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AdvancedGridList from './Images'
 import BrushIcon from '@material-ui/icons/Brush';
-import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
+import AppsIcon from '@material-ui/icons/Apps';
 import VideogameAssetIcon from '@material-ui/icons/VideogameAsset';
 
 function TabPanel(props) {
@@ -56,7 +56,7 @@ function LinkTab(props) {
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: "#E5E4E2",
   },
   indicator: {
     backgroundColor: 'white',
@@ -83,11 +83,12 @@ export default function NavTabs() {
           aria-label="nav tabs example"
           classes={{
           indicator: classes.indicator
+          
           }}
         >
           <LinkTab label="Art" icon={<BrushIcon />}  {...a11yProps(0)} />
           <LinkTab label="Games" icon={<VideogameAssetIcon />} {...a11yProps(1)} />
-          <LinkTab label="Photography" icon={<PhotoCameraIcon />} {...a11yProps(2)} />
+          <LinkTab label="Apps" icon={<AppsIcon />} {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>

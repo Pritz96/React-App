@@ -18,12 +18,12 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     overflow: 'hidden',
-    backgroundColor: '#D3D3D3'
+    backgroundColor: '#E5E4E2'
   },
   gridList: {
-    width: 1100,
+    width: 1110,
     height: 990,
 
     transform: 'translateZ(0)',
@@ -74,11 +74,12 @@ export default function AdvancedGridList() {
         featured: false,
       }
   ];
+
   return (
     <div className={classes.root}>
-    <Typography variant="h3">
-      Art Gallery
-      <GridList cellHeight={'300'} spacing={1} className={classes.gridList} cols={2}>
+    <Typography variant="h4">
+      Gallery
+      <GridList cellHeight={'500'} spacing={1} className={classes.gridList} cols={2}>
         {tileData.map(tile => (
           <GridListTile key={tile.img} cols={tile.featured ? 2 : 1} rows={tile.featured ? 2 : 1}>
             <img src={tile.img} alt={tile.title} />
