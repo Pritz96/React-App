@@ -76,7 +76,7 @@ export default function NavTabs() {
     <div className={classes.root}>
       <AppBar position="static" style={{ backgroundColor: '#696969' }}>
         <Tabs
-          indicatorClassName={classes.bigIndicator}
+          indicatorclassname={classes.bigIndicator}
           variant="fullWidth"
           value={value}
           onChange={handleChange}
