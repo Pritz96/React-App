@@ -47,34 +47,42 @@ export default function AdvancedGridList() {
       img: blueRing,
       title: 'Layered Veneer Ring',
       featured: false,
+      message:"I made a ring by boiling veneer, then curling and gluing it around a pen. After building up layers to add the darker shades of veneer and the blue veneer I sealed it with clear varnish"
     },
     {
-        img: controllerCoaster,
-        title: 'Controller Coaster',
-        featured: false,
+      img: controllerCoaster,
+      title: 'Controller Coaster',
+      featured: false,
+      message:"I made a two-tone games controller tea coaster"
       },
-      {
-        img: inceptionTotem,
-        title: 'Inception Totem',
-        featured: false,
-      },
-      {
-        img: spinner,
-        title: 'Ninjas in Pyjamas Spinner',
-        featured: false,
-      },
-      {
-        img: pocketWatch,
-        title: 'Pocket Watch',
-        featured: false,
-      },
-      {
-        img: tanjiro,
-        title: 'Tanjiro Drawing',
-        featured: false,
-      }
+    {
+      img: inceptionTotem,
+      title: 'Inception Totem',
+      featured: false,
+      message:"I like Inception and the totems used in the film so I carved my own totem using wood from my apple tree"
+    },
+    {
+      img: spinner,
+      title: 'Ninjas in Pyjamas Spinner',
+      featured: false,
+      message:"I like video games and esports, one of the teams I like is Ninjas in Pyjamas"
+    },
+    {
+      img: pocketWatch,
+      title: 'Pocket Watch',
+      featured: false,
+      message:"I made a pocket watch"
+    },
+    {
+      img: tanjiro,
+      title: 'Tanjiro Drawing',
+      featured: false,
+      message:"I rarely draw but decided to draw Tanjiro from Demon Slayer after watching the series"
+    }
   ];
-
+function clickHandler(message){
+  alert(message);
+}
   return (
     <div className={classes.root}>
     <Typography variant="h4">
@@ -89,7 +97,7 @@ export default function AdvancedGridList() {
               actionPosition="left"
               className={classes.titleBar}
               actionIcon={
-                <IconButton className={classes.icon}>
+                <IconButton className={classes.icon} onClick={()=>clickHandler(tile.message)}>
                   <InfoIcon/>
                 </IconButton>
               }
